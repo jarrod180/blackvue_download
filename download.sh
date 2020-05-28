@@ -1,7 +1,7 @@
 #!/bin/bash
 OUTPUT_DIR=/data/vod
 CAM_IP=10.99.77.1
-MAX_RETRIES=1
+MAX_RETRIES=30
 
 # See if we can get to the dashcam
 echo "Trying to connect to the dashcam at $CAM_IP"
